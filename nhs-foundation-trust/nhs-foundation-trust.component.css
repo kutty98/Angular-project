@@ -1,0 +1,747 @@
+
+h1{
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 47px;
+}
+
+.Analytics {
+  text-align: left;
+  width: 822px; /* Adjust the maximum width as per your design */
+}
+.Analytics p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-top: 19px; /* Add some space between paragraphs */
+  margin-left: 45px;
+}
+
+.container button{
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  margin: 11px;
+  margin-left: 54px;
+  margin-right: 0px;
+  border-width: 0.1rem;
+  border-color: rgb(6, 80, 148);
+  border-radius: 12px 12px;
+  background-color: #005EB8;
+  -webkit-text-fill-color: blanchedalmond;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+  
+  
+
+}
+
+.container button:hover{
+  border-color: #e2e918;
+}
+
+/* Style for the navigation menu */
+nav {
+  background-color: #005EB8;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+ul.inline-menu {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.inline-menu li {
+  display: inline-block;
+  margin-right: 11px;
+  font-size: 10px;
+}
+
+ul.inline-menu li:last-child {
+  margin-right: 0;
+}
+
+ul.inline-menu li a {
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ede6e6;
+  padding: 5px;
+}
+
+ul.inline-menu li a:hover {
+  background-color: #eff241;
+  color: #000;
+}
+
+/* Style for the Menu-button container */
+.Menu-button {
+  display: inline-block;
+  /* Add any additional styling you want for the container */
+  margin-left: 20px;
+}
+
+/* Style for the button */
+.Menu-button button {
+  font-size: 10px;
+  background-color: #005EB8; /* Change this to the desired background color */
+  color: white; /* Change this to the desired text color */
+  font-weight: bold;
+  padding: 10px 10px; /* Adjust the padding to your preference */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-color: #ccc;
+  border-width: 0.1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  /* Add any additional styling you want for the button */
+}
+
+/* Style when the button is hovered */
+.Menu-button button:hover {
+  border-color: #b9bc0e;
+}
+
+/* Style when the button is pressed/clicked */
+.Menu-button button:active {
+  background-color: #2a54ed; /* Change this to the desired background color when pressed/clicked */
+  /* Add any additional styling you want for the button when pressed/clicked */
+}
+
+
+
+/* Set flexbox properties for the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Style the logo image */
+header img {
+  width: 155px;
+  height: 50px;
+  padding-top: 5px;
+  padding-left: 35px;
+  padding-bottom: 10px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  padding-left: 50px;
+  margin-left: 20px;
+}
+
+header li {
+  padding-top: 29px;
+  padding-left: 6px;
+  margin-left: 30px;
+}
+
+header a {
+  text-decoration: none;
+  color: #000; /* Change the color as needed */
+  display: block;
+  position: relative;
+  padding-left: 20px;
+}
+
+header a:hover {
+  color: violet /* Change the hover color as needed */
+}
+
+.fas {
+  margin-left: 5px;
+  
+}
+
+
+
+/* Style the contact button */
+header .button {
+  background-color: #104eca;
+  color: #fff;
+  border-width: 0.1rem;
+  border-color: #005EB8;
+  border-radius: 17px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 9px;
+  margin-right: 10px;
+  padding-left: 13px;
+  padding-right: 19px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  float: left;
+}
+
+header .button:hover {
+  border-color: #b9bc0e;
+}
+
+/* Style the search box */
+header .search_box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+  padding: 0;
+}
+
+/* Style the search input */
+header .input {
+  padding: 7px;
+  margin-top: 19px;
+  padding-top: 9px;
+  border-radius: 30px;
+  border: 1px solid #070706;
+  color: rgb(237, 244, 54);
+ 
+  
+
+}
+
+
+
+
+/* Style the search button */
+header .btn {
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 147px;
+  margin-top: 18px;
+  width: 35px;
+  height: 33px;
+  background-color: #294af1;
+  border-radius: 3.2rem;
+  border-width: 0.1rem;
+  color: white;
+}
+
+.search_box .btn:hover { 
+  background-color: #005EB8;
+  border-color: yellow;
+}
+
+
+/* Style the search icon */
+header .fa {
+  margin-left: 9px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color:rgb(226, 225, 235);
+  
+}
+
+
+
+/* Center the image horizontally and vertically */
+body {
+  align-items: center;
+  margin: 0;
+}
+
+/* Remove underline from the link */
+a {
+  text-decoration: none;
+}
+
+/* Set maximum width for the image */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container3 h2{
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 50px;
+  padding-top: 20px;
+  margin-top: 20px;
+  color: #0e1010;
+}
+
+.container4 .button{
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 35px;
+  border-radius: 30px;
+  background-color: #304bd1;
+  color: white;
+  border-color: #010101;
+  border-width: 0.1rem;
+}
+
+.button{
+  padding-left: 100px;
+  margin-left: 10px;
+}
+
+.container4 .button:hover{
+  background-color: #1a1a9a;
+  border-color: yellow;
+}
+
+.container5 img{
+  float: right;
+  width: 500px;
+  height: 320px;
+}
+
+
+
+
+
+.container6 h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  padding-left: 45px;
+  padding-top: 55px;
+}
+
+.container7 p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding-left: 40px;
+  padding-top: 14px;
+  text-decoration-line: underline;
+  color: #005EB8;
+}
+
+.container8 .button{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 60px;
+  margin-top: 24px;
+  border-radius: 30px;
+  background-color: #304bd1;
+  color: white;
+  border-color: #2f4ee7;
+  border-width: 0.1rem;
+
+  
+}
+
+h4{
+  padding-left: 50px;
+  padding-top: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #eef2f2;
+  float: left;
+  margin-left: 45px;
+  background-color:rgb(239, 235, 235);
+}
+
+.card img {
+  width: 250px;
+  height: 125px;
+  margin: 0px;
+}
+
+.card h1, .card h2, .card h3, .card h4 {
+  margin: 10px 0;
+  padding-top: 3px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.card p {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  padding-left: 10px;
+}
+
+.card .fa{
+  padding-left: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+
+
+
+.sources{
+  padding-top: 40px;
+  float: right;
+  width: 570px;
+   height: 350px;
+   display: block;
+
+}
+
+h5{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 25px;
+ padding-left: 50px;
+ padding-top: 320px;
+ text-align: left;
+}
+
+
+.Donate p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 43px;
+  padding-bottom: 14px;
+  margin-top: 10px;
+  
+}
+
+.Donate .button{
+ background-color: rgb(183, 26, 107);
+ text-align: center;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ padding-left: 15px;
+ padding-right: 15px;
+ margin-left: 59px;
+ margin-top: 25px;
+ border-radius: 30px;
+ border-width: 0.1rem;
+ color: white;
+
+ 
+
+}
+
+.Donate .button:hover{
+  border-color: yellow;
+
+}
+
+.container1 {
+  background-color: #2f2ff2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 600px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.feedback {
+  margin: 0;
+}
+
+.page {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.save {
+  float: left;
+  margin-right: 10px;
+}
+
+.find {
+  float: left;
+}
+
+.container1 a {
+  text-decoration:underline;
+  color: #f3eeee;
+}
+
+/* Additional styling for visual clarity */
+ul.page li {
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+}
+/* Footer container */
+footer {
+  background-color: #e9e8e8;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 12px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+/* Footer menu */
+.footer__menu {
+  flex: 1 1 25%;
+  margin-top: 2px;
+  
+  
+}
+
+.footer__menu ul {
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+.footer__menu__item {
+  margin-bottom: 1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding-right: 20px;
+  
+}
+
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 1px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 1.5;
+  margin: 0;
+  margin-left: 10px;
+}
+
+a {
+  color: #0000FF;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.address {
+  font-weight: bold;
+}
+
+.phone {
+  font-weight: bold;
+  color: #030204;
+}
+
+.footer__hospitals{
+  padding-left: 200px;
+  position: absolute;
+}
+
+.footer__hospitals h2 {
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  margin-left: 25px;
+}
+
+.footer__hospitals__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.link-and-text {
+  width: 20%;
+  padding-left: 20px;
+  padding-right: 90px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+
+}
+
+.link {
+  color: #0066cc;
+  text-decoration: underline;
+  padding-top: 10px;
+  padding-left: 7px;
+  
+}
+
+.link:hover {
+  color: #b35eaf;
+}
+
+
+.link-and-text p {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+
+a {
+  color: #4141d7;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  
+}
+
+.link-and-text p a {
+  color: black;
+  font-size: 10px;
+}
+
+.footer__social h2 {
+  text-align: right;
+  padding-bottom: 30px;
+  padding-left: 60px;
+}
+
+
+.social-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__social h2{
+  padding: 0;
+}
+
+.social-menu__item {
+  float: left;
+  margin-right: 10px;
+  margin-top: 0;
+ 
+}
+
+.social-menu__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: 12%;
+ 
+}
+
+.icon {
+  float: right;
+  padding-left: 10px;
+  padding-bottom: 90px;
+}
+
+.fa {
+  font-size: 20px;
+  color: #2334f0;
+  margin: 0;
+  padding-bottom: 70px;
+  
+  
+}
+
+
+
+/* Footer partners */
+.footer__partners {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  
+}
+
+.footer__partners--left {
+  margin-right: 10px;
+  width: 6.5rem;
+  padding-top: 50px;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+
+}
+
+.footer__partners--right {
+  width: 25.5rem;
+  padding-left: 510px;
+  padding-bottom: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 10px;
+ 
+
+}
+
+
+.footer__bottom {
+  padding-bottom: 0;
+  background-color: #45677f;
+  margin-bottom: 0;
+}
+
+.paragraph--tiny {
+  font-size: 13px;
+  padding-top: 0;
+  padding-left: 330px;
+  padding-right: 310px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
